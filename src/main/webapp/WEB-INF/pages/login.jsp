@@ -24,7 +24,6 @@
 	margin-left:auto;
 	margin-right:auto;
 }
-
 .error {
 	padding: 15px;
 	margin-bottom: 20px;
@@ -46,13 +45,16 @@
 }
 
 #login-box {
-	width: 300px;
+	width: 320px;
 	padding: 20px;
 	margin: 100px auto;
 	background: #fff;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border: 1px solid #000;
+	border-radius: 0.071cm;  
+	background-color: rgb( 179, 191, 199 );  
+	box-shadow: 0.013cm 0.022cm 0.0508cm 0cm rgb( 0, 0, 0 );  
 }
 </style>
 </head>

@@ -13,46 +13,137 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class MainController {
 
-	@RequestMapping(value = { "/", "/welcome**" }, method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView defaultPage() {
 
 		ModelAndView model = new ModelAndView();
 		model.addObject("title", "Spring Security Login Form - Database Authentication");
 		model.addObject("message", "This is default page!");
-		model.setViewName("hello");
+		model.setViewName("index");
 		return model;
 
 	}
 
-	@RequestMapping(value = "/admin**", method = RequestMethod.GET)
-	public ModelAndView adminPage() {
+	@RequestMapping(value = "/reg", method = RequestMethod.GET)
+	public ModelAndView regPage() {
 
 		ModelAndView model = new ModelAndView();
 		model.addObject("title", "Spring Security Login Form - Database Authentication");
 		model.addObject("message", "This page is for ROLE_ADMIN only!");
-		model.setViewName("admin");
+		model.setViewName("reg");
 
 		return model;
 
 	}
-
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public ModelAndView login(@RequestParam(value = "error", required = false) String error,
-			@RequestParam(value = "logout", required = false) String logout) {
+	
+	@RequestMapping(value = "/update", method = RequestMethod.GET)
+	public ModelAndView updatePage() {
 
 		ModelAndView model = new ModelAndView();
-		if (error != null) {
-			model.addObject("error", "Invalid username and password!");
-		}
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("update");
 
-		if (logout != null) {
-			model.addObject("msg", "You've been logged out successfully.");
-		}
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+	public ModelAndView logoutPage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("logout");
+
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/showMessage", method = RequestMethod.GET)
+	public ModelAndView showMessagePage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("showMessage");
+
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
+	public ModelAndView indexPage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("index");
+
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
+	public ModelAndView welcomePage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("welcome");
+
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/success", method = RequestMethod.GET)
+	public ModelAndView successPage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("success");
+
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public ModelAndView loginPage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
 		model.setViewName("login");
 
 		return model;
 
 	}
+	
+	@RequestMapping(value = "/registration", method = RequestMethod.GET)
+	public ModelAndView registrationPage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("registration");
+
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/edit", method = RequestMethod.GET)
+	public ModelAndView editPage() {
+
+		ModelAndView model = new ModelAndView();
+		model.addObject("title", "Spring Security Login Form - Database Authentication");
+		model.addObject("message", "This page is for ROLE_ADMIN only!");
+		model.setViewName("edit");
+
+		return model;
+
+	}
+
 	
 	//for 403 access denied page
 	@RequestMapping(value = "/403", method = RequestMethod.GET)

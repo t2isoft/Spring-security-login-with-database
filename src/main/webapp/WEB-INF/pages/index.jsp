@@ -24,7 +24,6 @@ body {
 
 .container {
     padding: 25px;
-    position: fixed;
 }
 
 .form-login {
@@ -56,8 +55,29 @@ h4 {
 body {
 	background-image:url("http://www.wallpapers-hd.ovh/wp-content/uploads/2015/01/console-games-0367.jpg");
 }
+.header {
+	background-color: black;
+	height: 60px;
+}
+
+.footer {
+	background-color: black;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+.logo_igame{
+	/*background-image:url("C:\Users\ilias\Downloads\logo_igame_sansfond.png");*/
+	background-repeat:none;
+	width: 20%;
+    height: 20%;
+    position: absolute;
+}
     </style>
     <body>
+    <div class="header"><span class="logo_igame" style="background-image: url(../img/logo_igame_sansfond.png)"></span>
+    </div>
        <!--<form method="GET" action="login">
             <center>
             <table border="1" width="30%" cellpadding="3">
@@ -115,6 +135,10 @@ body {
     
     
     <!-- BOOTSTRAP -->
-        
+     <footer class="footer">
+      <div class="container">
+        <p class="text-muted">I-GAME©</p>
+      </div>
+    </footer>   
     </body>
 </html>

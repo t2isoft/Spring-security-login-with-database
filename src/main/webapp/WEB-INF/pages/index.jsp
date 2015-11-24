@@ -53,8 +53,8 @@ h4 {
 .wrapper {
     text-align: center;
 }
-body{
-	background-image:url(console.png);
+body {
+	background-image:url("http://www.wallpapers-hd.ovh/wp-content/uploads/2015/01/console-games-0367.jpg");
 }
     </style>
     <body>

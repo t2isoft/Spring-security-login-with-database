@@ -32,7 +32,7 @@
                 <tbody>
                     <tr>
                         <td>Prénom</td>
-                        <td><input type="text" name="fname" value="" required pattern="[^(^insta$|^test$)]"/></td>
+                        <td><input type="text" name="fname" value="" required pattern="\b(?:(?!insta|test)\w)+\b" title="Veuillez ne pas utiliser comme prenom : insta"/></td>
                     </tr>
                     <tr>
                         <td>Nom</td>

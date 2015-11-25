@@ -91,53 +91,63 @@ body {
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.tonka3d.com/img/personagem-3d-para-games-prototipos-by-tonka3d.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.actugaming.net/uploads/0a6f99b4408a21fc7bce56fe7129371a.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.mrwallpaper.com/wallpapers/witcher-3-game-1600x900.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://eskipaper.com/images/free-game-wallpapers-hd-4.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.mrwallpaper.com/wallpapers/bayonetta-2-video-game-1600x900.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://gamehall.uol.com.br/selectgame/wp-content/uploads/2011/12/the-last-of-us-wallpaper-1600x900.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.mrwallpaper.com/wallpapers/game-gameglobe-1600x900.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.mrwallpaper.com/wallpapers/2013-destiny-game-1600x900.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.wallpaper77.com/upload/DesktopWallpapers/cache/Fallout-3-Wallpaper-7-fallout-3-wallpapers-game-wallpapers-1600x900.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                    <img class="img-responsive" src="http://www.mrwallpaper.com/wallpapers/bioshock-infinite-game-1600x900.jpg" alt="">
                 </a>
+                <p style="color:white;">Prochainement disponible!</p>
             </div>
         </div>
 

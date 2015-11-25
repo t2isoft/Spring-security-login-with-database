@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Acceuil</title>
+        <title>Accueil</title>
          <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 	    <link rel="stylesheet" href="css/main.css" />
@@ -61,11 +61,12 @@ body {
 }
 
 .footer {
-	background-color: black;
-	position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
+	bottom:0;
+	left:0;
+	height:40px;
+	width:100%;
+	background: black;
+	position:fixed;
 }
 .logo_igame{
 	/*background-image:url("C:\Users\ilias\Downloads\logo_igame_sansfond.png");*/
@@ -76,7 +77,7 @@ body {
 }
     </style>
     <body>
-    <div class="header"><span class="logo_igame" style="background-image: url(../img/logo_igame_sansfond.png)"></span>
+    <div class="header"><span class="logo_igame"></span>
     </div>
        <!--<form method="GET" action="login">
             <center>
@@ -135,10 +136,8 @@ body {
     
     
     <!-- BOOTSTRAP -->
-     <footer class="footer">
-      <div class="container">
+      <div class="footer">
         <p class="text-muted">I-GAME©</p>
-      </div>
-    </footer>   
+      </div>  
     </body>
 </html>

@@ -36,6 +36,11 @@ body {
     border-color:#d2d2d2;
     border-width: 5px;
     box-shadow:0 1px 0 #cfcfcf;
+    width:200%;
+    opacity:0.9;
+    box-shadow: 2px 2px 15px black;
+    box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+
 }
 
 h4 { 
@@ -75,6 +80,18 @@ body {
     height: 20%;
     position: absolute;
 }
+.col-lg-5{
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+	opacity:0.5;
+}
+.IgameLogo{
+	width: 200px;
+	height: 200px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
     </style>
     <body>
     <div class="header"><span class="logo_igame"></span>
@@ -112,6 +129,12 @@ body {
     
     <div class="container">
 	    <div class="row">
+	    	<div class="col-lg-5">
+	    	<h1>Bienvenue sur l'interface de jeux-videos I-GAME</h1>
+	    	<img class="IgameLogo" src="https://photos-5.dropbox.com/t/2/AAB-HN2gaoND7ryGqP3pvRo9KGBFPIM4v7AdUku8W8AGGA/12/161638257/png/32x32/1/_/1/2/logo_igame_fond_noir.png/EPqimP0DGN0CIAcoBw/wz-pClqEqv7z1sbxSp65X7h8a7b9SmSpQ7zTdEmXeGw?size=1024x768&size_mode=3" alt="">
+	    	<p>C'est ici que tu peux jouer avec ou contre tes camarades de l'insta à une multitude de jeux plus amusants les uns que les autres! Alors n'hésite pas , inscrit toi gratuitement!</p>
+	    	</div>
+	    	<div class="col-lg-7">
 	        <div class="col-md-offset-5 col-md-3">
 	            <form  method="GET" action="login" class="form-login">
 	            <h4>S'indentifier</h4>
@@ -129,8 +152,8 @@ body {
 	            </span>
 	            </div>
 	            </form>
-	        
 	        </div>
+	    	</div>
 	    </div>
 	</div>
     

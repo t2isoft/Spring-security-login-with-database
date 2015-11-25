@@ -4,6 +4,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Inscrition</title>
+        
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Inscription</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	    <link rel="stylesheet" href="css/main.css" />
+	    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	    <script src="js/parallax.js"></script>
+	    <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
+	    <!--Pulling Awesome Font -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        
+        
             <script type="text/javascript">
 		    var a = Math.ceil(Math.random() * 10);
 		    var b = Math.ceil(Math.random() * 10);       
@@ -21,50 +36,54 @@
 		    </script>
     </head>
     <body>
-        <form method="get" action="registration">
-            <center>
-            <table border="1" width="30%" cellpadding="5">
-                <thead>
-                    <tr>
-                        <th colspan="2">S'inscrire</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Prénom</td>
-                        <td><input type="text" name="fname" value="" required pattern="\b(?:(?!insta|test)\w)+\b" title="Veuillez ne pas utiliser comme prenom : insta"/></td>
-                    </tr>
-                    <tr>
-                        <td>Nom</td>
-                        <td><input type="text" name="lname" value="" required/></td>
-                    </tr>
-                    <tr>
-                        <td>Email</td>
-                        <td><input type="text" name="email" value="" required/></td>
-                    </tr>
-                    <tr>
-                        <td>Pseudo</td>
-                        <td><input type="text" name="uname" value="" required/></td>
-                    </tr>
-                    <tr>
-                        <td>Mot de passe</td>
-                        <td><input type="password" name="pass" value="" required/></td>
-                    </tr>
-                    <tr>
-                        <td>Combien font <script type="text/javascript">DrawBotBoot()</script> ?</td>
-                        <td><input id='BotBootInput' type='text' maxlength='2' size='2' onChange="ValidBotBoot();" /></td>
-                        <!--  <td><script type="text/javascript">DrawBotBoot()</script>  -->
-                    </tr>
-                    <tr>
-                        <td><input id="Validation" type="submit" value="Valider" disabled="disabled"/></td>
-                        <td><input type="reset" value="Annuler" /></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">Pas encore inscrit <a href="index">S'inscrire</a></td>
-                    </tr>
-                </tbody>
-            </table>
-            </center>
-        </form>
+    <div class="container">
+    	<div class="row">
+	        <form method="get" action="registration">
+	            <center>
+	            <table border="1" width="30%" cellpadding="5">
+	                <thead>
+	                    <tr>
+	                        <th colspan="2">S'inscrire</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr>
+	                        <td>Prénom</td>
+	                        <td><input type="text" name="fname" value="" required pattern="\b(?:(?!insta|test)\w)+\b" title="Veuillez ne pas utiliser comme prenom : insta"/></td>
+	                    </tr>
+	                    <tr>
+	                        <td>Nom</td>
+	                        <td><input type="text" name="lname" value="" required/></td>
+	                    </tr>
+	                    <tr>
+	                        <td>Email</td>
+	                        <td><input type="text" name="email" value="" required/></td>
+	                    </tr>
+	                    <tr>
+	                        <td>Pseudo</td>
+	                        <td><input type="text" name="uname" value="" required/></td>
+	                    </tr>
+	                    <tr>
+	                        <td>Mot de passe</td>
+	                        <td><input type="password" name="pass" value="" required/></td>
+	                    </tr>
+	                    <tr>
+	                        <td>Combien font <script type="text/javascript">DrawBotBoot()</script> ?</td>
+	                        <td><input id='BotBootInput' type='text' maxlength='2' size='2' onChange="ValidBotBoot();" /></td>
+	                        <!--  <td><script type="text/javascript">DrawBotBoot()</script>  -->
+	                    </tr>
+	                    <tr>
+	                        <td><input id="Validation" type="submit" value="Valider" disabled="disabled"/></td>
+	                        <td><input type="reset" value="Annuler" /></td>
+	                    </tr>
+	                    <tr>
+	                        <td colspan="2">Pas encore inscrit <a href="index">S'inscrire</a></td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	            </center>
+	        </form>
+		</div>
+    </div>
     </body>
 </html>

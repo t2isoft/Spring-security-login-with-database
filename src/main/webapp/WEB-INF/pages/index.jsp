@@ -138,16 +138,16 @@ body {
 	        <div class="col-md-offset-5 col-md-3">
 	            <form  method="GET" action="login" class="form-login">
 	            <h4>S'indentifier</h4>
-	            <input type="text" id="userName" name="uname" class="form-control input-sm chat-input" placeholder="Pseudo" />
+	            <input type="text" id="userName" name="uname" class="form-control input-sm chat-input" placeholder="Pseudo" required />
 	            </br>
-	            <input type="password" id="userPassword" name="pass" class="form-control input-sm chat-input" placeholder="Mot de passe" />
+	            <input type="password" id="userPassword" name="pass" class="form-control input-sm chat-input" placeholder="Mot de passe" required />
 	            </br>
 	            <label>Pas encore inscrit ? <a href="reg">S'inscrire</a></label>
 	            </br>
 	            
 	            <div class="wrapper">
 	            <span class="group-btn">     
-	                <input type="submit" class="btn btn-primary btn-md" value="Login" />
+	                <input type="submit" class="btn btn-primary btn-md" value="Login"/>
 	                <input type="reset" class="btn btn-primary btn-md" value="Annuler" />
 	            </span>
 	            </div>

@@ -148,7 +148,7 @@ body {
 	            <div class="wrapper">
 	            <span class="group-btn">     
 	                <input type="submit" class="btn btn-primary btn-md" value="Login" />
-	                <input type="reset" class="btn btn-primary btn-md" value="Reset" />
+	                <input type="reset" class="btn btn-primary btn-md" value="Annuler" />
 	            </span>
 	            </div>
 	            </form>
@@ -159,8 +159,10 @@ body {
     
     
     <!-- BOOTSTRAP -->
-      <div class="footer">
-        <p class="text-muted">I-GAME©</p>
+     <!-- Footer -->
+        <div class="footer">
+        <p style="text-align:center;" class="text-muted">I-GAME© by T2ISOFT : <a href="http://www.t2isoft.com">www.t2isoft.com</a></p>
       </div>  
+<!-- /Footer -->
     </body>
 </html>

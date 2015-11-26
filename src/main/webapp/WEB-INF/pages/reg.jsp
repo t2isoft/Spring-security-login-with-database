@@ -198,7 +198,7 @@ h4 {
     </div>
     <!-- Footer -->
         <div class="footer">
-        <p class="text-muted">I-GAME©</p>
+        <p style="text-align:center;" class="text-muted">I-GAME© by T2ISOFT : <a href="http://www.t2isoft.com">www.t2isoft.com</a></p>
       </div>  
 <!-- /Footer -->
     </body>

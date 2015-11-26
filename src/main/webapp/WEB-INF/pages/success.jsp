@@ -85,7 +85,7 @@ body {
             </div>
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
+                <a class="thumbnail" href="localhost:3000" TARGET="_blank">
                     <img src="http://img11.hostingpics.net/pics/195336logobubblespace.png" alt="BubbleSpace">
                 </a>
                 <p style="color:white;">Affrontez vous et soyer le plus gros de la galaxie dans BubbleSpace!</p>

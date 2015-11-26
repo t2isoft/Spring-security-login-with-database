@@ -12,7 +12,7 @@
 	    <script src="js/parallax.js"></script>
 	    <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
 	    <!--Pulling Awesome Font -->
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
 <style>
 body {
@@ -44,16 +44,17 @@ body {
 }
 </style>
 
+
 <body>
 	<!-- Header -->
 	<div class="header">
-	<img class="IgameLogo" src="https://photos-5.dropbox.com/t/2/AAB-HN2gaoND7ryGqP3pvRo9KGBFPIM4v7AdUku8W8AGGA/12/161638257/png/32x32/1/_/1/2/logo_igame_fond_noir.png/EPqimP0DGN0CIAcoBw/wz-pClqEqv7z1sbxSp65X7h8a7b9SmSpQ7zTdEmXeGw?size=1024x768&size_mode=3" alt="">
+	<img class="IgameLogo" src="http://img11.hostingpics.net/pics/731672logoigamefondnoir.png" alt="">
 		<p style="padding-top:2px;">
 			<%
 		    	if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
 			%>
-				You are not logged in<br/>
-				<a href="index">Please Login</a>
+				Vous n'êtes pas connecté<br/>
+				<a href="index">Connectez vous!</a>
 			<%
 				} else {
 			%>
@@ -85,7 +86,7 @@ body {
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="https://photos-1.dropbox.com/t/2/AACelviBj2kKxh2dx0I63ijq4inSgmjeZTazkVGii7cOJw/12/161638257/png/32x32/1/_/1/2/logo_bubblespace.png/EPqimP0DGNwCIAcoBw/fdFOrdV5MVosiwqCgE_i6ZO0sSMF6t9jPh2pJ6jc5Ec?size=1024x768&size_mode=3" alt="BubbleSpace">
+                    <img src="http://img11.hostingpics.net/pics/195336logobubblespace.png" alt="BubbleSpace">
                 </a>
                 <p style="color:white;">Affrontez vous et soyer le plus gros de la galaxie dans BubbleSpace!</p>
             </div>

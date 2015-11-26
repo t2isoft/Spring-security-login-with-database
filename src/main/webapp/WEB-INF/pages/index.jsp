@@ -131,7 +131,7 @@ body {
 	    <div class="row">
 	    	<div class="col-lg-5">
 	    	<h1>Bienvenue sur l'interface de jeux-videos I-GAME</h1>
-	    	<img class="IgameLogo" src="https://photos-5.dropbox.com/t/2/AAB-HN2gaoND7ryGqP3pvRo9KGBFPIM4v7AdUku8W8AGGA/12/161638257/png/32x32/1/_/1/2/logo_igame_fond_noir.png/EPqimP0DGN0CIAcoBw/wz-pClqEqv7z1sbxSp65X7h8a7b9SmSpQ7zTdEmXeGw?size=1024x768&size_mode=3" alt="">
+	    	<img class="IgameLogo" src="http://img11.hostingpics.net/pics/731672logoigamefondnoir.png" alt="">
 	    	<p>C'est ici que tu peux jouer avec ou contre tes camarades de l'insta à une multitude de jeux plus amusants les uns que les autres! Alors n'hésite pas , inscrit toi gratuitement!</p>
 	    	</div>
 	    	<div class="col-lg-7">
